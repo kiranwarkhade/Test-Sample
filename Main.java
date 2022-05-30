@@ -1,13 +1,12 @@
 public class Main 
 {  
- Node head;  // head of list  
+ Node head; 
  static class Node {  
  int data;  
          Node next;  
  Node(int d)  { data = d;  next=null; }  
      }  
-     /* This function prints contents of the linked list starting from head */  
- public void display()  
+     public void display()  
      {  
          Node n = head;  
  while (n != null)  
